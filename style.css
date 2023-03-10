@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-  #contenedor {
+#contenedor {
     max-width: 650px;
     margin: 0 auto;
     padding: 20px;
@@ -22,6 +22,7 @@
     h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    padding: 200px;
 }
 
 p {

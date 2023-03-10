@@ -1,40 +1,24 @@
-body {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-
-  }
 
   #fondo2 {
     background-size: 100%;
-    width: 100vh;
-    height: 30vh;
+    height: 50vh;
     background-image: url(Imagenes/header_background.jpeg);
     background-size: cover;
+    padding: 30px;
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
     color: white;
-    padding: 50px;
-
-}
-
-  .contenido {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: 2px 2px #000000;
-    
 }
 
-
+  #contenedor {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: justify; 
+}
     h1 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -46,27 +30,12 @@ p {
     margin-bottom: 10px;
 }
 
-a {
-    color: #0077cc;
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
 img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-iframe {
     display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-span {
-    font-weight: bold;
-}
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+  }
+  

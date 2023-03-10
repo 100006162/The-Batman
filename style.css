@@ -4,9 +4,23 @@ body {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    background-image: url("Imagenes\header_background.jpeg");
-    background-size: cover;
+
   }
+
+  #fondo2 {
+    background-size: 100%;
+    width: 100vh;
+    height: 30vh;
+    background-image: url(Imagenes/header_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+
+}
+
   .contenido {
     position: absolute;
     top: 50%;
